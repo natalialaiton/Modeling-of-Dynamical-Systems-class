@@ -5,12 +5,12 @@ import math
 import pandas as pd
 
 
-def initial_cond(state_var,alpha,coeff_2,coeff_3,coeff_4,total_time):
+def initial_cond(state_var,alpha,beta,coeff_3,coeff_4,total_time):
  x=state_var[0]
  y=state_var[1]
  z=state_var[2]
  a=alpha
- b=coeff_2
+ b=beta
  c=coeff_3
  d=coeff_4
  t=total_time
