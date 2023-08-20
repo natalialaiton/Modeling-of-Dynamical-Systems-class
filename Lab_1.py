@@ -5,11 +5,11 @@ import math
 import pandas as pd
 
 
-def initial_cond(state_var,coeff_1,coeff_2,coeff_3,coeff_4,total_time):
+def initial_cond(state_var,alpha,coeff_2,coeff_3,coeff_4,total_time):
  x=state_var[0]
  y=state_var[1]
  z=state_var[2]
- a=coeff_1
+ a=alpha
  b=coeff_2
  c=coeff_3
  d=coeff_4
